@@ -1,0 +1,4547 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
+      "lastModificationDate": 1650531553894,
+      "contentHash": "c89562e4f5ef9b584f318a1559b5052a",
+      "sourceName": "contracts/@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol",
+        "../utils/Strings.sol",
+        "../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl",
+        "IAccessControl"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1650531554082,
+      "contentHash": "bc047f55d4e6dcc5a9c7ee096f530312",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1650531554088,
+      "contentHash": "e575d915a7dbf0decd510699a7fd53dc",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1650531554097,
+      "contentHash": "a9a5319dff9088c6ffe757ea1c2a6729",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1650531554099,
+      "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\governance\\TimelockController.sol": {
+      "lastModificationDate": 1650531553977,
+      "contentHash": "3954309e80d0cc1a52679c46133c7d88",
+      "sourceName": "contracts/@openzeppelin/contracts/governance/TimelockController.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../access/AccessControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TimelockController"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\access\\AccessControlEnumerable.sol": {
+      "lastModificationDate": 1650531553895,
+      "contentHash": "5486abf1e4411b43527f415fbdd3d3a2",
+      "sourceName": "contracts/@openzeppelin/contracts/access/AccessControlEnumerable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./AccessControl.sol",
+        "../utils/structs/EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControlEnumerable",
+        "IAccessControlEnumerable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\structs\\EnumerableSet.sol": {
+      "lastModificationDate": 1650531554107,
+      "contentHash": "212c7600a5dc9486dc7c82a82144fb88",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/structs/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\presets\\ERC721PresetMinterPauserAutoId.sol": {
+      "lastModificationDate": 1650531554028,
+      "contentHash": "09061583db996cbd0708ac6c4f925436",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/presets/ERC721PresetMinterPauserAutoId.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "../extensions/ERC721Enumerable.sol",
+        "../extensions/ERC721Burnable.sol",
+        "../extensions/ERC721Pausable.sol",
+        "../../../access/AccessControlEnumerable.sol",
+        "../../../utils/Context.sol",
+        "../../../utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721PresetMinterPauserAutoId"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1650531554018,
+      "contentHash": "8fc7506d6ee32c5fbc527b0c42f0e615",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Enumerable.sol": {
+      "lastModificationDate": 1650549904546,
+      "contentHash": "11629722b0e3c53cb55733af5176cd33",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "./IERC721Enumerable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Enumerable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Burnable.sol": {
+      "lastModificationDate": 1650531554022,
+      "contentHash": "c451d6197061b5e0d446b7171af0dc01",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Burnable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Pausable.sol": {
+      "lastModificationDate": 1650531554023,
+      "contentHash": "a2c749b0983611257fc97395b3cff590",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "../../../security/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Pausable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Counters.sol": {
+      "lastModificationDate": 1650531554083,
+      "contentHash": "86ddbfba30a7d811a86f54416c364be3",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1650550005094,
+      "contentHash": "93a5aa8a276e028a4f46f22b5d8f7bd3",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1650531554020,
+      "contentHash": "e6d69a0b5b95ac1112eb4746a2d66f3e",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1650531554026,
+      "contentHash": "75cedcb24edaec014d2071ed59a03ff3",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1650531554079,
+      "contentHash": "37103cdc416efc2601c6f6734044b559",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Enumerable.sol": {
+      "lastModificationDate": 1650549989975,
+      "contentHash": "f2ae82a09cc670ca19d644f60990b94d",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\security\\Pausable.sol": {
+      "lastModificationDate": 1650531553995,
+      "contentHash": "835673b68fdeaf41b38c84e966e8630b",
+      "sourceName": "contracts/@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Snapshot.sol": {
+      "lastModificationDate": 1650531554010,
+      "contentHash": "34ddee023aef78b296f9ecdd7f51f76a",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../utils/Arrays.sol",
+        "../../../utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Snapshot"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1650531554006,
+      "contentHash": "715cc034a225c8fc445e2f4299111d75",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Arrays.sol": {
+      "lastModificationDate": 1650531554081,
+      "contentHash": "bd343ac153d3a2dbb015dcaf38ea21d5",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Arrays.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Arrays"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1650531554007,
+      "contentHash": "c7492a9ab60ba083d345f893d5e0f33c",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1650531554011,
+      "contentHash": "aa1be06992a99bb7393b26a6af3c4dfb",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1650531554104,
+      "contentHash": "21857a03e0374037ea2a2fc5e4ad9e17",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\presets\\ERC20PresetMinterPauser.sol": {
+      "lastModificationDate": 1650531554015,
+      "contentHash": "a6530e2dcbbb51d2e748f97f14662e49",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../extensions/ERC20Burnable.sol",
+        "../extensions/ERC20Pausable.sol",
+        "../../../access/AccessControlEnumerable.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20PresetMinterPauser"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
+      "lastModificationDate": 1650531554008,
+      "contentHash": "279d6a0c2fd093b667febc2c4c2e6945",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Pausable.sol": {
+      "lastModificationDate": 1650531554010,
+      "contentHash": "49ab91d0e0caa17deaeafc25f32e2bb9",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../security/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Pausable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC777\\ERC777.sol": {
+      "lastModificationDate": 1650531554043,
+      "contentHash": "4efbb69894abae8fcf57c9d342dab35d",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC777/ERC777.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC777.sol",
+        "./IERC777Recipient.sol",
+        "./IERC777Sender.sol",
+        "../ERC20/IERC20.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/introspection/IERC1820Registry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC777"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC777\\IERC777.sol": {
+      "lastModificationDate": 1650531554045,
+      "contentHash": "b5a217ad2af8ed08108788678245eb0e",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC777/IERC777.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC777"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC777\\IERC777Recipient.sol": {
+      "lastModificationDate": 1650531554047,
+      "contentHash": "28db9244cc847ef290e8ca4576cd920e",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC777Recipient"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC777\\IERC777Sender.sol": {
+      "lastModificationDate": 1650531554048,
+      "contentHash": "c8c3e65073fcb27e64313d3fba227f71",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC777/IERC777Sender.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC777Sender"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\IERC1820Registry.sol": {
+      "lastModificationDate": 1650531554101,
+      "contentHash": "025ff2ecea94e30a6f2ea7d5ef8fb7d3",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1820Registry"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC777\\presets\\ERC777PresetFixedSupply.sol": {
+      "lastModificationDate": 1650531554075,
+      "contentHash": "1e3c8e922e83686d4e483863fa1b6d4c",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC777/presets/ERC777PresetFixedSupply.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC777.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC777PresetFixedSupply"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Multicall.sol": {
+      "lastModificationDate": 1650531554086,
+      "contentHash": "7d08ee8b3fced81918fcd73549e06aab",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\cryptography\\SignatureChecker.sol": {
+      "lastModificationDate": 1650531554092,
+      "contentHash": "e5943c4c4087dd9624a783eda79282e0",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ECDSA.sol",
+        "../Address.sol",
+        "../../interfaces/IERC1271.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignatureChecker"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\cryptography\\ECDSA.sol": {
+      "lastModificationDate": 1650531554090,
+      "contentHash": "fab61daafd8fd6090c7d648a6bf7e6e5",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\interfaces\\IERC1271.sol": {
+      "lastModificationDate": 1650531553978,
+      "contentHash": "afdb0f81f8192062fa500c22311d309c",
+      "sourceName": "contracts/@openzeppelin/contracts/interfaces/IERC1271.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1271"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-ERC20Permit.sol": {
+      "lastModificationDate": 1650531554013,
+      "contentHash": "011f4c3eb0c837b2d135746c35ffe0d3",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./draft-IERC20Permit.sol",
+        "../ERC20.sol",
+        "../../../utils/cryptography/draft-EIP712.sol",
+        "../../../utils/cryptography/ECDSA.sol",
+        "../../../utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+      "lastModificationDate": 1650531554014,
+      "contentHash": "0d702bf86b77a11941c6007e95fc1d05",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\cryptography\\draft-EIP712.sol": {
+      "lastModificationDate": 1650531554093,
+      "contentHash": "561ab4458b81118bb0b90d4d313dd74d",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\metatx\\MinimalForwarder.sol": {
+      "lastModificationDate": 1650531553982,
+      "contentHash": "371b4dd0b24a7a8be2fb371ee2b52527",
+      "sourceName": "contracts/@openzeppelin/contracts/metatx/MinimalForwarder.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/cryptography/ECDSA.sol",
+        "../utils/cryptography/draft-EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MinimalForwarder"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+      "lastModificationDate": 1650531554024,
+      "contentHash": "2b16122c5f36625084a7f90f0780937b",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721URIStorage"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\ERC1155Pausable.sol": {
+      "lastModificationDate": 1650531554002,
+      "contentHash": "7f5b2bede092cc2405a2a3c6b75b85a2",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC1155.sol",
+        "../../../security/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155Pausable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
+      "lastModificationDate": 1650531553998,
+      "contentHash": "940bb9269223a34da904c64c50abdffd",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol",
+        "./IERC1155Receiver.sol",
+        "./extensions/IERC1155MetadataURI.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
+      "lastModificationDate": 1650531553999,
+      "contentHash": "79f5ef33a7ed00ffb7dfdcd4339a946c",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1650531554000,
+      "contentHash": "4c2325989961abc760910c904c6cde62",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1650531554002,
+      "contentHash": "f67c3445291b9506fdff7d6527c9e552",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\presets\\ERC1155PresetMinterPauser.sol": {
+      "lastModificationDate": 1650531554003,
+      "contentHash": "fa7f14a78f1a418ec5ebb1dcfd3c0635",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/presets/ERC1155PresetMinterPauser.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC1155.sol",
+        "../extensions/ERC1155Burnable.sol",
+        "../extensions/ERC1155Pausable.sol",
+        "../../../access/AccessControlEnumerable.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155PresetMinterPauser"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\ERC1155Burnable.sol": {
+      "lastModificationDate": 1650531554001,
+      "contentHash": "35ff9df3b900369f4cb8dc51ddccb1fa",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC1155.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155Burnable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Storage.sol": {
+      "lastModificationDate": 1650531554099,
+      "contentHash": "463cdcc1b1e93ed93de97e19ff265db2",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/ERC165Storage.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Storage"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\utils\\ERC1155Receiver.sol": {
+      "lastModificationDate": 1650531554005,
+      "contentHash": "baa5a1c248a5f5bfae096368ccf4bc5c",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/utils/ERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155Receiver.sol",
+        "../../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155Receiver"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Checker.sol": {
+      "lastModificationDate": 1650531554098,
+      "contentHash": "a65c606ba9eda6f9d0135c28683d1595",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC1155\\utils\\ERC1155Holder.sol": {
+      "lastModificationDate": 1650531554005,
+      "contentHash": "ff1de24b596f419da236d867da1c2c5b",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1155Holder"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC721\\utils\\ERC721Holder.sol": {
+      "lastModificationDate": 1650531554029,
+      "contentHash": "1881fdf8f5c2e3f95a00801d67991250",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Holder"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1650531554017,
+      "contentHash": "e5187f826fe23aac7606440680f16de3",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\utils\\TokenTimelock.sol": {
+      "lastModificationDate": 1650531554017,
+      "contentHash": "f4d1683aa25e0ef733262378d55c3e55",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/utils/TokenTimelock.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenTimelock"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\escrow\\Escrow.sol": {
+      "lastModificationDate": 1650531554095,
+      "contentHash": "4c62091304bff36a70d97c1732cc1f4c",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/escrow/Escrow.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../access/Ownable.sol",
+        "../Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Escrow"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1650531553896,
+      "contentHash": "17d9f40220b0ab370db2c77e7c92c4ef",
+      "sourceName": "contracts/@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\escrow\\ConditionalEscrow.sol": {
+      "lastModificationDate": 1650531554094,
+      "contentHash": "a97dcf4527039a2d054121e6f66f393e",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/escrow/ConditionalEscrow.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Escrow.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConditionalEscrow"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\escrow\\RefundEscrow.sol": {
+      "lastModificationDate": 1650531554095,
+      "contentHash": "44238af88290d8bfee1d846efc68bcd5",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/escrow/RefundEscrow.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ConditionalEscrow.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RefundEscrow"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\transparent\\ProxyAdmin.sol": {
+      "lastModificationDate": 1650531553991,
+      "contentHash": "7467eeaf3de82520433b387801ab200a",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./TransparentUpgradeableProxy.sol",
+        "../../access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProxyAdmin"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\transparent\\TransparentUpgradeableProxy.sol": {
+      "lastModificationDate": 1650531553992,
+      "contentHash": "fb766a5d2f460d90c7b62cfe15be9158",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC1967/ERC1967Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransparentUpgradeableProxy"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol": {
+      "lastModificationDate": 1650531553985,
+      "contentHash": "b12e929a2313d46515ebcecdcb157283",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../Proxy.sol",
+        "./ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1967Proxy"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\Proxy.sol": {
+      "lastModificationDate": 1650531553987,
+      "contentHash": "f357a7069052b75c96929e1a1327d299",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol": {
+      "lastModificationDate": 1650531553986,
+      "contentHash": "fede7135bca5828ca42601e91d20b600",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeacon.sol",
+        "../../utils/Address.sol",
+        "../../utils/StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967Upgrade"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\beacon\\IBeacon.sol": {
+      "lastModificationDate": 1650531553989,
+      "contentHash": "e1e6df7276b048c6b544c757c6e179ec",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeacon"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1650531554087,
+      "contentHash": "dcfdd37663042ccb99d67060a9eaebec",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\utils\\UUPSUpgradeable.sol": {
+      "lastModificationDate": 1650531553994,
+      "contentHash": "f1fff095d14a35ad582ac35b1b77c4b1",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC1967/ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\beacon\\UpgradeableBeacon.sol": {
+      "lastModificationDate": 1650531553990,
+      "contentHash": "ce8ae93e65f6e34105b9abc9d1be67ee",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../../access/Ownable.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UpgradeableBeacon"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\beacon\\BeaconProxy.sol": {
+      "lastModificationDate": 1650531553988,
+      "contentHash": "7217d9a0b6e1cf9842df0915c87081ad",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../Proxy.sol",
+        "../ERC1967/ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BeaconProxy"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\security\\PullPayment.sol": {
+      "lastModificationDate": 1650531553996,
+      "contentHash": "7d00946cba43d898954b2996f8461559",
+      "sourceName": "contracts/@openzeppelin/contracts/security/PullPayment.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/escrow/Escrow.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PullPayment"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\finance\\PaymentSplitter.sol": {
+      "lastModificationDate": 1650531553976,
+      "contentHash": "1a70427fb27737af6822ade1f2c47654",
+      "sourceName": "contracts/@openzeppelin/contracts/finance/PaymentSplitter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Address.sol",
+        "../utils/Context.sol",
+        "../utils/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PaymentSplitter"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
+      "lastModificationDate": 1650531554106,
+      "contentHash": "9f282272a197e5e800ef035117e86f2f",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\presets\\ERC20PresetFixedSupply.sol": {
+      "lastModificationDate": 1650531554015,
+      "contentHash": "f944eb1294159f29f947befbf2167c1a",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/presets/ERC20PresetFixedSupply.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../extensions/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20PresetFixedSupply"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\metatx\\ERC2771Context.sol": {
+      "lastModificationDate": 1650531553981,
+      "contentHash": "058a50e644de9b442031418c9ebf2817",
+      "sourceName": "contracts/@openzeppelin/contracts/metatx/ERC2771Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC2771Context"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Capped.sol": {
+      "lastModificationDate": 1650531554009,
+      "contentHash": "f00eceb600c0455c2271ebfb9053f382",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Capped"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-ERC20FlashMint.sol": {
+      "lastModificationDate": 1650531554012,
+      "contentHash": "3a3b97266c919b89637c566d29026763",
+      "sourceName": "contracts/@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20FlashMint.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../../interfaces/IERC3156.sol",
+        "../ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20FlashMint"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\interfaces\\IERC3156.sol": {
+      "lastModificationDate": 1650531553978,
+      "contentHash": "c82fc93f4701e8cbc45bb5648ee0de05",
+      "sourceName": "contracts/@openzeppelin/contracts/interfaces/IERC3156.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC3156FlashBorrower",
+        "IERC3156FlashLender"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\structs\\EnumerableMap.sol": {
+      "lastModificationDate": 1650531554107,
+      "contentHash": "c0b43f8a087acc75648a660da90f6b03",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/structs/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\Clones.sol": {
+      "lastModificationDate": 1650531553984,
+      "contentHash": "08b85f1ee6d839857b6feaa519390069",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/Clones.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Clones"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\proxy\\utils\\Initializable.sol": {
+      "lastModificationDate": 1650531553993,
+      "contentHash": "76309b022d76aa52bb1830b7bf515e9e",
+      "sourceName": "contracts/@openzeppelin/contracts/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1650531553996,
+      "contentHash": "1d45ab4bd9b10c657bd26a957be5bcd9",
+      "sourceName": "contracts/@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\Create2.sol": {
+      "lastModificationDate": 1650531554085,
+      "contentHash": "92772f75e8ba6c3bdc71b5d1f76c3735",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/Create2.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Create2"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\cryptography\\MerkleProof.sol": {
+      "lastModificationDate": 1650531554091,
+      "contentHash": "6006f4c579ccd1b2b80e78144c56fe92",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MerkleProof"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\ERC1820Implementer.sol": {
+      "lastModificationDate": 1650531554099,
+      "contentHash": "40ab447f87f31a9f1b466957bfe29441",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/ERC1820Implementer.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC1820Implementer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1820Implementer"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\introspection\\IERC1820Implementer.sol": {
+      "lastModificationDate": 1650531554101,
+      "contentHash": "da8e63116dc7c44d084104efff723f07",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/introspection/IERC1820Implementer.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1820Implementer"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1650531554105,
+      "contentHash": "b81f7c2aa371ec13481560a9b63701f9",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/math/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\@openzeppelin\\contracts\\utils\\math\\SignedSafeMath.sol": {
+      "lastModificationDate": 1650531554106,
+      "contentHash": "22f39cc4e65cf283981e866296b0d25b",
+      "sourceName": "contracts/@openzeppelin/contracts/utils/math/SignedSafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedSafeMath"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1650531582452,
+      "contentHash": "17d9f40220b0ab370db2c77e7c92c4ef",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Enumerable.sol": {
+      "lastModificationDate": 1650531580955,
+      "contentHash": "11629722b0e3c53cb55733af5176cd33",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "./IERC721Enumerable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Enumerable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1650531577104,
+      "contentHash": "bc047f55d4e6dcc5a9c7ee096f530312",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1650531580947,
+      "contentHash": "8fc7506d6ee32c5fbc527b0c42f0e615",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Enumerable.sol": {
+      "lastModificationDate": 1650531581284,
+      "contentHash": "f2ae82a09cc670ca19d644f60990b94d",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1650531581282,
+      "contentHash": "93a5aa8a276e028a4f46f22b5d8f7bd3",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1650531581291,
+      "contentHash": "e6d69a0b5b95ac1112eb4746a2d66f3e",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1650531581287,
+      "contentHash": "75cedcb24edaec014d2071ed59a03ff3",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1650531577018,
+      "contentHash": "37103cdc416efc2601c6f6734044b559",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1650531585988,
+      "contentHash": "e575d915a7dbf0decd510699a7fd53dc",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1650531580812,
+      "contentHash": "a9a5319dff9088c6ffe757ea1c2a6729",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1650531581270,
+      "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "D:\\work\\2022\\2022-4-21-Nefarious Crypto Pirate Ship .888. Creation -001\\nft-frontend-main\\nft-frontend-main\\contracts\\StoreFront1.sol": {
+      "lastModificationDate": 1651223842787,
+      "contentHash": "1537245c3c6850aa5d4470c7017eba9b",
+      "sourceName": "contracts/StoreFront1.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Base58",
+        "StoreFront2"
+      ]
+    }
+  }
+}
